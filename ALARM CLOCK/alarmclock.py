@@ -2,7 +2,7 @@ from winsound import Beep
 from datetime import datetime
 from threading import Thread
 from tkinter import *
-def alarmclock(reminder):
+def alarmclock():
     #from winsound import Beep
     from time import sleep
     hr=min=zone=None;brak=False;jj=0;from sys import exit;thradkill=False
